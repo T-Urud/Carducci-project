@@ -7,13 +7,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+
 	<meta charset="UTF-8">
-	<title>Nina Carducci, Photographe à Bordeaux</title>
+	<meta name="author" content="Nina Carducci">
 	<meta name="description" content="Photographe professionnelle de mariage, portraits, évènements à Bordeaux, en Gironde.">
 	<meta name="language" content="fr-FR">
+	<meta name="robots" content="index, follow">
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-
+	
 	<!-- OPen Graph : réseaux sociaux -->
 	<meta property="og:title" content="Nina Carducci, Photographe à Bordeaux"/>
 	<meta property="og:type" content="siteweb"/>
@@ -48,10 +50,11 @@
 			"priceRange": "$$"
 		}
 		</script>
+		<title>Nina Carducci, Photographe à Bordeaux</title>
 </head>
 
 <body>
-	<div class="top-header">
+	<header class="top-header">
 		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav">   
 			<ul>
@@ -62,56 +65,53 @@
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="instagram logo"></a></li>
 			</ul>
 		</nav>
-	</div>
-
-	
-	<header id="header">
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<picture>
-						<!-- <source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min-768.webp" media="(max-width: 768px)"> -->
-						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp">
-						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp" 
-								 width="1200" height="800" class="d-block w-100" 
-								 alt="photo zoomée d'un homme traversant un passage piéton">
-					</picture>				
-				</div>
-				<div class="carousel-item">
-					<picture>
-						<!-- <source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min-768.webp" media="(max-width: 768px)"> -->
-						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp">
-						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp" 
-								 width="1200" height="800" class="d-block w-100" 
-								 alt="photo d'une foule lors d'un événement" loading="lazy">
-					</picture>
-				</div>
-				<div class="carousel-item">
-					<picture>
-						<!-- <source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min-768.webp" media="(max-width: 768px)"> -->
-						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp">
-						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" 
-								 width="1200" height="800" class="d-block w-100" 
-								 alt="photo de jeunes mariés s'embrassant sur la piste de danse le soir du mariage" loading="lazy">
-					</picture>
-				</div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
 	</header>
+	
+	
 	<main>
+		<section id="header">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" 	aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<picture>
+							<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp">
+							<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp" 
+								 class="d-block w-100" 
+								 alt="photo zoomée d'un homme traversant un passage piéton">
+						</picture>				
+					</div>
+					<div class="carousel-item">
+							<picture>
+							<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp">
+							<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp" 
+								 class="d-block w-100" 
+								 alt="photo d'une foule lors d'un événement" loading="lazy">
+						</picture>
+					</div>
+					<div class="carousel-item">
+						<picture>
+							<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp">
+							<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" 
+								  class="d-block w-100" 
+								 alt="photo de jeunes mariés s'embrassant sur la piste de danse le soir du mariage" loading="lazy">
+						</picture>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
 		<section id="about">
 			<div class="picture left">
 				<img src="./assets/images/nina-min.webp" alt="portrait de la photographe Nina">
